@@ -1,0 +1,9 @@
+html,body,header,#intro{
+    height: 100%;
+}
+#intro{
+    background: url(images/black-and-white-car-classic-111.jpg);
+}
+a{
+    color: white;
+}
