@@ -2,8 +2,17 @@ html,body,header,#intro{
     height: 100%;
 }
 #intro{
-    background: url(images/black-and-white-car-classic-111.jpg);
+    background: url(images/black-and-white-car-classic-111.jpg) no-repeat center center fixed;
 }
 a{
     color: white;
+}
+.top-nav-collapse
+{
+    background-color: #24355C
+}
+@media(max-width:768px){
+    navbar:not(.rop-nav-collapse){
+        background: #24355C
+    }
 }
