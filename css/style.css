@@ -2,7 +2,8 @@ html,body,header,#intro{
     height: 100%;
 }
 #intro{
-    background: url(images/black-and-white-car-classic-111.jpg) no-repeat center center fixed;
+    background: url(images/black-and-white-car-classic-111.jpg) no-repeat center fixed;
+     background-size: 100% 100%;
 }
 a{
     color: white;
@@ -14,6 +15,10 @@ a{
 @media(max-width:768px){
     navbar:not(.rop-nav-collapse){
         background: #24355C
+    }
+    #intro{
+        background: url(images/black-and-white-car-classic-111.jpg) no-repeat center fixed;
+         
     }
 }
 .map-container{
@@ -29,3 +34,9 @@ a{
     width:100%;
     position:absolute;
     }
+    @media(min-width:769px){.i
+    {
+        height: 300px;
+    }
+  
+}
